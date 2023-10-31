@@ -1,9 +1,11 @@
 import React from 'react'
 import './CartWidget.css'
+import { Cart } from 'react-bootstrap-icons';
+
 
 const CartWidget = () => {
   return (
-        <i class="bi bi-cart badge"/>
+        <Cart/>
   )
 }
 
